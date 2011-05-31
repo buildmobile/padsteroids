@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15302C581393BDBE001E6EDB /* CircleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15302C571393BDBE001E6EDB /* CircleControlView.m */; };
+		15FCE1651382860A00B2AF98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FCE1641382860A00B2AF98 /* UIKit.framework */; };
+		15FCE1671382860A00B2AF98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FCE1661382860A00B2AF98 /* Foundation.framework */; };
+		15FCE1691382860A00B2AF98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FCE1681382860A00B2AF98 /* CoreGraphics.framework */; };
+		15FCE16F1382860A00B2AF98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15FCE16D1382860A00B2AF98 /* InfoPlist.strings */; };
+		15FCE1721382860A00B2AF98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FCE1711382860A00B2AF98 /* main.m */; };
+		15FCE1751382860A00B2AF98 /* PadsteroidsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FCE1741382860A00B2AF98 /* PadsteroidsAppDelegate.m */; };
+		15FCE1781382860A00B2AF98 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FCE1761382860A00B2AF98 /* MainWindow.xib */; };
+		15FCE17B1382860A00B2AF98 /* PadsteroidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FCE17A1382860A00B2AF98 /* PadsteroidsViewController.m */; };
+		15FCE17E1382860A00B2AF98 /* PadsteroidsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FCE17C1382860A00B2AF98 /* PadsteroidsViewController.xib */; };
+		15FCE18613828A4800B2AF98 /* GameSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FCE18513828A4800B2AF98 /* GameSurface.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15302C561393BDBE001E6EDB /* CircleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleControlView.h; sourceTree = "<group>"; };
+		15302C571393BDBE001E6EDB /* CircleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleControlView.m; sourceTree = "<group>"; };
+		15FCE1601382860A00B2AF98 /* Padsteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Padsteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FCE1641382860A00B2AF98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15FCE1661382860A00B2AF98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15FCE1681382860A00B2AF98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15FCE16C1382860A00B2AF98 /* Padsteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Padsteroids-Info.plist"; sourceTree = "<group>"; };
+		15FCE16E1382860A00B2AF98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15FCE1701382860A00B2AF98 /* Padsteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Padsteroids-Prefix.pch"; sourceTree = "<group>"; };
+		15FCE1711382860A00B2AF98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15FCE1731382860A00B2AF98 /* PadsteroidsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadsteroidsAppDelegate.h; sourceTree = "<group>"; };
+		15FCE1741382860A00B2AF98 /* PadsteroidsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadsteroidsAppDelegate.m; sourceTree = "<group>"; };
+		15FCE1771382860A00B2AF98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		15FCE1791382860A00B2AF98 /* PadsteroidsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadsteroidsViewController.h; sourceTree = "<group>"; };
+		15FCE17A1382860A00B2AF98 /* PadsteroidsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadsteroidsViewController.m; sourceTree = "<group>"; };
+		15FCE17D1382860A00B2AF98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PadsteroidsViewController.xib; sourceTree = "<group>"; };
+		15FCE18413828A4800B2AF98 /* GameSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSurface.h; sourceTree = "<group>"; };
+		15FCE18513828A4800B2AF98 /* GameSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSurface.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FCE15D1382860A00B2AF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FCE1651382860A00B2AF98 /* UIKit.framework in Frameworks */,
+				15FCE1671382860A00B2AF98 /* Foundation.framework in Frameworks */,
+				15FCE1691382860A00B2AF98 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FCE1551382860A00B2AF98 = {
+			isa = PBXGroup;
+			children = (
+				15FCE16A1382860A00B2AF98 /* Padsteroids */,
+				15FCE1631382860A00B2AF98 /* Frameworks */,
+				15FCE1611382860A00B2AF98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15FCE1611382860A00B2AF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15FCE1601382860A00B2AF98 /* Padsteroids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FCE1631382860A00B2AF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FCE1641382860A00B2AF98 /* UIKit.framework */,
+				15FCE1661382860A00B2AF98 /* Foundation.framework */,
+				15FCE1681382860A00B2AF98 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15FCE16A1382860A00B2AF98 /* Padsteroids */ = {
+			isa = PBXGroup;
+			children = (
+				15FCE1731382860A00B2AF98 /* PadsteroidsAppDelegate.h */,
+				15FCE1741382860A00B2AF98 /* PadsteroidsAppDelegate.m */,
+				15FCE1761382860A00B2AF98 /* MainWindow.xib */,
+				15FCE1791382860A00B2AF98 /* PadsteroidsViewController.h */,
+				15FCE17A1382860A00B2AF98 /* PadsteroidsViewController.m */,
+				15FCE17C1382860A00B2AF98 /* PadsteroidsViewController.xib */,
+				15FCE16B1382860A00B2AF98 /* Supporting Files */,
+				15FCE18413828A4800B2AF98 /* GameSurface.h */,
+				15FCE18513828A4800B2AF98 /* GameSurface.m */,
+				15302C561393BDBE001E6EDB /* CircleControlView.h */,
+				15302C571393BDBE001E6EDB /* CircleControlView.m */,
+			);
+			path = Padsteroids;
+			sourceTree = "<group>";
+		};
+		15FCE16B1382860A00B2AF98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15FCE16C1382860A00B2AF98 /* Padsteroids-Info.plist */,
+				15FCE16D1382860A00B2AF98 /* InfoPlist.strings */,
+				15FCE1701382860A00B2AF98 /* Padsteroids-Prefix.pch */,
+				15FCE1711382860A00B2AF98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15FCE15F1382860A00B2AF98 /* Padsteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FCE1811382860A00B2AF98 /* Build configuration list for PBXNativeTarget "Padsteroids" */;
+			buildPhases = (
+				15FCE15C1382860A00B2AF98 /* Sources */,
+				15FCE15D1382860A00B2AF98 /* Frameworks */,
+				15FCE15E1382860A00B2AF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Padsteroids;
+			productName = Padsteroids;
+			productReference = 15FCE1601382860A00B2AF98 /* Padsteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15FCE1571382860A00B2AF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "3Easy Web Org";
+			};
+			buildConfigurationList = 15FCE15A1382860A00B2AF98 /* Build configuration list for PBXProject "Padsteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15FCE1551382860A00B2AF98;
+			productRefGroup = 15FCE1611382860A00B2AF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15FCE15F1382860A00B2AF98 /* Padsteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FCE15E1382860A00B2AF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FCE16F1382860A00B2AF98 /* InfoPlist.strings in Resources */,
+				15FCE1781382860A00B2AF98 /* MainWindow.xib in Resources */,
+				15FCE17E1382860A00B2AF98 /* PadsteroidsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FCE15C1382860A00B2AF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FCE1721382860A00B2AF98 /* main.m in Sources */,
+				15FCE1751382860A00B2AF98 /* PadsteroidsAppDelegate.m in Sources */,
+				15FCE17B1382860A00B2AF98 /* PadsteroidsViewController.m in Sources */,
+				15FCE18613828A4800B2AF98 /* GameSurface.m in Sources */,
+				15302C581393BDBE001E6EDB /* CircleControlView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15FCE16D1382860A00B2AF98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FCE16E1382860A00B2AF98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15FCE1761382860A00B2AF98 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FCE1771382860A00B2AF98 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		15FCE17C1382860A00B2AF98 /* PadsteroidsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FCE17D1382860A00B2AF98 /* en */,
+			);
+			name = PadsteroidsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15FCE17F1382860A00B2AF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		15FCE1801382860A00B2AF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		15FCE1821382860A00B2AF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Padsteroids/Padsteroids-Prefix.pch";
+				INFOPLIST_FILE = "Padsteroids/Padsteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15FCE1831382860A00B2AF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Padsteroids/Padsteroids-Prefix.pch";
+				INFOPLIST_FILE = "Padsteroids/Padsteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FCE15A1382860A00B2AF98 /* Build configuration list for PBXProject "Padsteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FCE17F1382860A00B2AF98 /* Debug */,
+				15FCE1801382860A00B2AF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FCE1811382860A00B2AF98 /* Build configuration list for PBXNativeTarget "Padsteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FCE1821382860A00B2AF98 /* Debug */,
+				15FCE1831382860A00B2AF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15FCE1571382860A00B2AF98 /* Project object */;
+}
