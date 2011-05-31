@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E59B96BB1364B5E100F3D2E1 /* CircleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = E59B96BA1364B5E100F3D2E1 /* CircleControlView.m */; };
+		E5DF65D21361F1C000BF92C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DF65D11361F1C000BF92C4 /* UIKit.framework */; };
+		E5DF65D41361F1C000BF92C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DF65D31361F1C000BF92C4 /* Foundation.framework */; };
+		E5DF65D61361F1C000BF92C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DF65D51361F1C000BF92C4 /* CoreGraphics.framework */; };
+		E5DF65DC1361F1C000BF92C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5DF65DA1361F1C000BF92C4 /* InfoPlist.strings */; };
+		E5DF65DF1361F1C000BF92C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DF65DE1361F1C000BF92C4 /* main.m */; };
+		E5DF65E21361F1C000BF92C4 /* PadsteroidsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DF65E11361F1C000BF92C4 /* PadsteroidsAppDelegate.m */; };
+		E5DF65E51361F1C000BF92C4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5DF65E31361F1C000BF92C4 /* MainWindow.xib */; };
+		E5DF65E81361F1C000BF92C4 /* PadsteroidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DF65E71361F1C000BF92C4 /* PadsteroidsViewController.m */; };
+		E5DF65EB1361F1C000BF92C4 /* PadsteroidsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5DF65E91361F1C000BF92C4 /* PadsteroidsViewController.xib */; };
+		E5DF65F31361F25000BF92C4 /* GameSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DF65F21361F25000BF92C4 /* GameSurface.m */; };
+		E5EB3648136680F200C493AC /* AsteroidView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3647136680F200C493AC /* AsteroidView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E59B96B91364B5E100F3D2E1 /* CircleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleControlView.h; sourceTree = "<group>"; };
+		E59B96BA1364B5E100F3D2E1 /* CircleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleControlView.m; sourceTree = "<group>"; };
+		E5DF65CD1361F1C000BF92C4 /* Padsteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Padsteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DF65D11361F1C000BF92C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5DF65D31361F1C000BF92C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5DF65D51361F1C000BF92C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5DF65D91361F1C000BF92C4 /* Padsteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Padsteroids-Info.plist"; sourceTree = "<group>"; };
+		E5DF65DB1361F1C000BF92C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5DF65DD1361F1C000BF92C4 /* Padsteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Padsteroids-Prefix.pch"; sourceTree = "<group>"; };
+		E5DF65DE1361F1C000BF92C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5DF65E01361F1C000BF92C4 /* PadsteroidsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadsteroidsAppDelegate.h; sourceTree = "<group>"; };
+		E5DF65E11361F1C000BF92C4 /* PadsteroidsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadsteroidsAppDelegate.m; sourceTree = "<group>"; };
+		E5DF65E41361F1C000BF92C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E5DF65E61361F1C000BF92C4 /* PadsteroidsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadsteroidsViewController.h; sourceTree = "<group>"; };
+		E5DF65E71361F1C000BF92C4 /* PadsteroidsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadsteroidsViewController.m; sourceTree = "<group>"; };
+		E5DF65EA1361F1C000BF92C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PadsteroidsViewController.xib; sourceTree = "<group>"; };
+		E5DF65F11361F25000BF92C4 /* GameSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSurface.h; sourceTree = "<group>"; };
+		E5DF65F21361F25000BF92C4 /* GameSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSurface.m; sourceTree = "<group>"; };
+		E5EB3646136680F200C493AC /* AsteroidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsteroidView.h; sourceTree = "<group>"; };
+		E5EB3647136680F200C493AC /* AsteroidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsteroidView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5DF65CA1361F1C000BF92C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DF65D21361F1C000BF92C4 /* UIKit.framework in Frameworks */,
+				E5DF65D41361F1C000BF92C4 /* Foundation.framework in Frameworks */,
+				E5DF65D61361F1C000BF92C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5DF65C21361F1BF00BF92C4 = {
+			isa = PBXGroup;
+			children = (
+				E5DF65D71361F1C000BF92C4 /* Padsteroids */,
+				E5DF65D01361F1C000BF92C4 /* Frameworks */,
+				E5DF65CE1361F1C000BF92C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5DF65CE1361F1C000BF92C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5DF65CD1361F1C000BF92C4 /* Padsteroids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5DF65D01361F1C000BF92C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5DF65D11361F1C000BF92C4 /* UIKit.framework */,
+				E5DF65D31361F1C000BF92C4 /* Foundation.framework */,
+				E5DF65D51361F1C000BF92C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5DF65D71361F1C000BF92C4 /* Padsteroids */ = {
+			isa = PBXGroup;
+			children = (
+				E5DF65E01361F1C000BF92C4 /* PadsteroidsAppDelegate.h */,
+				E5DF65E11361F1C000BF92C4 /* PadsteroidsAppDelegate.m */,
+				E5DF65E31361F1C000BF92C4 /* MainWindow.xib */,
+				E5DF65E61361F1C000BF92C4 /* PadsteroidsViewController.h */,
+				E5DF65E71361F1C000BF92C4 /* PadsteroidsViewController.m */,
+				E5DF65E91361F1C000BF92C4 /* PadsteroidsViewController.xib */,
+				E5DF65D81361F1C000BF92C4 /* Supporting Files */,
+				E5DF65F11361F25000BF92C4 /* GameSurface.h */,
+				E5DF65F21361F25000BF92C4 /* GameSurface.m */,
+				E59B96B91364B5E100F3D2E1 /* CircleControlView.h */,
+				E59B96BA1364B5E100F3D2E1 /* CircleControlView.m */,
+				E5EB3646136680F200C493AC /* AsteroidView.h */,
+				E5EB3647136680F200C493AC /* AsteroidView.m */,
+			);
+			path = Padsteroids;
+			sourceTree = "<group>";
+		};
+		E5DF65D81361F1C000BF92C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5DF65D91361F1C000BF92C4 /* Padsteroids-Info.plist */,
+				E5DF65DA1361F1C000BF92C4 /* InfoPlist.strings */,
+				E5DF65DD1361F1C000BF92C4 /* Padsteroids-Prefix.pch */,
+				E5DF65DE1361F1C000BF92C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5DF65CC1361F1C000BF92C4 /* Padsteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5DF65EE1361F1C000BF92C4 /* Build configuration list for PBXNativeTarget "Padsteroids" */;
+			buildPhases = (
+				E5DF65C91361F1C000BF92C4 /* Sources */,
+				E5DF65CA1361F1C000BF92C4 /* Frameworks */,
+				E5DF65CB1361F1C000BF92C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Padsteroids;
+			productName = Padsteroids;
+			productReference = E5DF65CD1361F1C000BF92C4 /* Padsteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5DF65C41361F1BF00BF92C4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E5DF65C71361F1BF00BF92C4 /* Build configuration list for PBXProject "Padsteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5DF65C21361F1BF00BF92C4;
+			productRefGroup = E5DF65CE1361F1C000BF92C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5DF65CC1361F1C000BF92C4 /* Padsteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5DF65CB1361F1C000BF92C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DF65DC1361F1C000BF92C4 /* InfoPlist.strings in Resources */,
+				E5DF65E51361F1C000BF92C4 /* MainWindow.xib in Resources */,
+				E5DF65EB1361F1C000BF92C4 /* PadsteroidsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5DF65C91361F1C000BF92C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DF65DF1361F1C000BF92C4 /* main.m in Sources */,
+				E5DF65E21361F1C000BF92C4 /* PadsteroidsAppDelegate.m in Sources */,
+				E5DF65E81361F1C000BF92C4 /* PadsteroidsViewController.m in Sources */,
+				E5DF65F31361F25000BF92C4 /* GameSurface.m in Sources */,
+				E59B96BB1364B5E100F3D2E1 /* CircleControlView.m in Sources */,
+				E5EB3648136680F200C493AC /* AsteroidView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5DF65DA1361F1C000BF92C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5DF65DB1361F1C000BF92C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5DF65E31361F1C000BF92C4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5DF65E41361F1C000BF92C4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E5DF65E91361F1C000BF92C4 /* PadsteroidsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5DF65EA1361F1C000BF92C4 /* en */,
+			);
+			name = PadsteroidsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5DF65EC1361F1C000BF92C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E5DF65ED1361F1C000BF92C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E5DF65EF1361F1C000BF92C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Padsteroids/Padsteroids-Prefix.pch";
+				INFOPLIST_FILE = "Padsteroids/Padsteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5DF65F01361F1C000BF92C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Padsteroids/Padsteroids-Prefix.pch";
+				INFOPLIST_FILE = "Padsteroids/Padsteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5DF65C71361F1BF00BF92C4 /* Build configuration list for PBXProject "Padsteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5DF65EC1361F1C000BF92C4 /* Debug */,
+				E5DF65ED1361F1C000BF92C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5DF65EE1361F1C000BF92C4 /* Build configuration list for PBXNativeTarget "Padsteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5DF65EF1361F1C000BF92C4 /* Debug */,
+				E5DF65F01361F1C000BF92C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5DF65C41361F1BF00BF92C4 /* Project object */;
+}
