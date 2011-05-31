@@ -11,6 +11,14 @@
 @interface GameSurface : UIView {
     CGPoint shipLocation;
     double shipDirection;
+    
+    BOOL gunEnabled;
+    double gunDirection;
 }
+
+- (void)moveShip:(float)distance angle:(float)angle;
+
+- (void)enableGun:(float)distance angle:(float)angle;
+- (void)disableGun;
 
 @end

@@ -41,6 +41,31 @@
     CGContextRestoreGState(context);
 }
 
+- (void)moveShip:(float)distance angle:(float)angle {
+    shipLocation.x -= ( distance * 3.0 ) * cos((angle+90.0) * 0.0174532925);
+    shipLocation.y -= ( distance * 3.0 ) * sin((angle+90.0) * 0.0174532925);
+    shipDirection = angle;
+    [self setNeedsDisplay];
+}
+
+- (void)enableGun:(float)distance angle:(float)angle {
+    gunEnabled = YES;
+    gunDirection = angle;
+    
+    CGPoint laserStart, laserEnd;
+    laserStart.x = ( self.bounds.size.width / 2 ) + shipLocation.x;
+    laserStart.y = ( self.bounds.size.height / 2 ) + shipLocation.y;
+    laserEnd.x = laserStart.x + ( 1000.0 * cos((gunDirection+90.0) * 0.0174532925) ) * -1;
+    laserEnd.y = laserStart.y + ( 1000.0 * sin((gunDirection+90.0) * 0.0174532925) ) * -1;
+    
+    [self setNeedsDisplay];
+}
+
+- (void)disableGun {
+    gunEnabled = NO;
+    [self setNeedsDisplay];
+}
+
 - (void)dealloc
 {
     [super dealloc];
