@@ -28,6 +28,24 @@
     
     CGContextTranslateCTM( context, ( self.bounds.size.width / 2 ) + shipLocation.x, ( self.bounds.size.height / 2 ) + shipLocation.y );
     
+    if ( gunEnabled ) {
+        CGContextSaveGState(context);
+        
+        CGContextSetStrokeColorWithColor(context, [UIColor greenColor].CGColor);
+        CGContextSetLineWidth(context, 5.0);
+        
+        CGPoint target;
+        target.x = ( 1000.0 * cos((gunDirection+90.0) * 0.0174532925) ) * -1;
+        target.y = ( 1000.0 * sin((gunDirection+90.0) * 0.0174532925) ) * -1;
+        
+        CGContextMoveToPoint(context, 0.0, 0.0);
+        CGContextAddLineToPoint(context, target.x, target.y);
+        
+        CGContextStrokePath(context);
+        
+        CGContextRestoreGState(context);
+    }
+
     CGContextSaveGState(context);
     CGContextRotateCTM(context, shipDirection * 0.0174532925 );
     
